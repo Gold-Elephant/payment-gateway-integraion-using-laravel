@@ -1,0 +1,44 @@
+[name="method"]{
+    display: none;
+}
+#submit{
+    display: none;
+}
+[name="method"]:checked + .item{
+    width: 150px;
+    height: 150px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 10px #888;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    transition: 1s;
+    display: block;
+}
+.item:hover{
+    box-shadow: 1px 1px 10px #000;
+    
+    transform: scale(1.2);
+}
+.item.visa{
+    background-image: url(/assets/img/visa-mastercard.png);
+}
+.item.apple{
+    background-image: url(/assets/img/apple.png);
+}
+.item.google{
+    background-image: url(/assets/img/google.png);
+}
+.item.stc{
+    background-image: url(/assets/img/stc.png);
+}
+.item.paypal{
+    background-image: url(/assets/img/paypal.png);
+}
+.item.mada{
+    background-image: url(/assets/img/mada.png);
+}
